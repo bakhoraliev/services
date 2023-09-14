@@ -1,0 +1,16 @@
+[tool.isort]
+profile = "black"
+line_length = 79
+lines_after_imports = 2
+sections = ['FUTURE', 'STDLIB', 'THIRDPARTY', 'FIRSTPARTY', 'LOCALFOLDER']
+default_section = 'FIRSTPARTY'
+known_third_party = ['pydantic', 'pytest']
+
+[tool.black]
+line-length = 79
+target-version = ['py311']
+
+[tool.mypy]
+python_version = '3.11'
+strict = true
+ignore_missing_imports = true
