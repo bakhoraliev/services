@@ -1,7 +1,7 @@
 import datetime
 from typing import TypedDict
 
-from money import Money
+from domain.money import Money
 
 
 class Service(TypedDict):

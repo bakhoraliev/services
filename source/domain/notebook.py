@@ -1,7 +1,7 @@
 from datetime import date, datetime
 from typing import TypedDict
 
-from registration import Registration, registration_spent_time
+from domain.registration import Registration, registration_spent_time
 
 
 class Notebook(TypedDict):

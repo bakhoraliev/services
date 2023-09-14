@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from typing import TypedDict
 
-from services import Service
+from domain.service import Service
 
 
 class Registration(TypedDict):
