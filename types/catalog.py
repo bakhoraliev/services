@@ -1,6 +1,6 @@
 from typing import TypedDict
 
-from domain.service import Service
+from types.service import Service
 
 
 class Category(TypedDict):

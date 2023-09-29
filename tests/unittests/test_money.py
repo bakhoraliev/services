@@ -2,7 +2,7 @@ from decimal import Decimal
 
 import pytest
 
-from domain.money import Money
+from types.money import Money
 
 
 @pytest.mark.parametrize(
