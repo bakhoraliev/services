@@ -11,7 +11,7 @@ class Money(BaseModel):
 
     @validator("amount")
     def round_up_amount(cls, value: Decimal) -> Decimal:
-        return value.quantize(Decimal("0.01"))
+        return round(value, 2)
 
     class Config:
         json_encoders = {
