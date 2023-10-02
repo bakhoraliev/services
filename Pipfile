@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pydantic = "*"
-pytelegrambotapi = "*"
+python-telegram-bot = "*"
 
 [dev-packages]
 black = "*"
